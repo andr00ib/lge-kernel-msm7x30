@@ -192,7 +192,7 @@ SUBARCH := arm
 # Note: Some architectures assign CROSS_COMPILE in their arch/*/Makefile
 export KBUILD_BUILDHOST := $(SUBARCH)
 ARCH		?= arm
-CROSS_COMPILE	?= ~/toolchains/linaro/bin/arm-eabi-
+CROSS_COMPILE	?= /home/andr00ib/toolchains/arm-eabi-linaro-4.7.3/bin/arm-eabi-
 
 
 # Architecture as present in compile.h

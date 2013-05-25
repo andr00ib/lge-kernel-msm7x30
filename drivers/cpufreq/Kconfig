@@ -181,10 +181,10 @@ config CPU_FREQ_GOV_ONDEMAND
 	  If in doubt, say N.
 
 
-<<<<<<< HEAD
+
 config CPU_FREQ_GOV_CONSERVATIVE
 	tristate "'conservative' cpufreq governor"
-=======
+
 config CPU_FREQ_GOV_INTERACTIVEX
 	  tristate "'interactiveX' cpufreq policy governor"
 	  help
@@ -227,7 +227,6 @@ config CPU_FREQ_GOV_INTELLIDEMAND
 
 config CPU_FREQ_GOV_LIONHEART
 	tristate "'Lionheart' cpufreq governor"
->>>>>>> 25899c6... added new governors(smartassV2/intercativeX...etc
 	depends on CPU_FREQ
 	help
 	  'Lionheart' - A brave and agile conservative-based governor.

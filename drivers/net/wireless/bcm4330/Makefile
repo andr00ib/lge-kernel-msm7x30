@@ -54,7 +54,11 @@ EXTRA_CFLAGS = \
 	-DDHD_GPL \
 	-DBCMLXSDMMC \
 	-DBCMPLATFORM_BUS \
+<<<<<<< HEAD
 	-Wall -Wstrict-prototypes -Werror \
+=======
+	-Wstrict-prototypes \
+>>>>>>> 352d95b... fix: useless warings
 	-I$(SRCROOT) \
 	-I$(SRCROOT)/include \
 	-I$(SRCROOT)/shared \

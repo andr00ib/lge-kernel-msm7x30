@@ -18,12 +18,15 @@ lib-y := ctype.o string.o vsprintf.o cmdline.o \
 =======
 <<<<<<< HEAD
 	 memory_alloc.o \
+<<<<<<< HEAD
 	 memcopy.o
 >>>>>>> 21349e2... fix: build errors
 =======
 	 memcopy.o
 >>>>>>> b85c11d... added memcopy
 >>>>>>> 23e7edb... added memcopy
+=======
+>>>>>>> 8ca77da... fix: memcopy
 
 lib-$(CONFIG_MMU) += ioremap.o
 lib-$(CONFIG_SMP) += cpumask.o
